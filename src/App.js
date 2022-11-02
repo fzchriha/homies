@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import mainImage from "./imgMain.png";
+import "./App.css";
+import USMap from "./USMap";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <header className="App-header">HOMIES</header>
+
+      <main>
+        <section className="content">
+          <p className="main-paragraph">
+            Secure the <span className="pink-text">Right Spot</span> for the{" "}
+            <span className="pink-text">Right Price</span>
+          </p>
+          {/* <label for="price">Enter your maximum price $</label>
+          <input type="text" id="price" name="price"></input> */}
+
+          <img src={mainImage} className="App-logo" alt="logo" />
+        </section>
+      </main>
+      <USMap />
     </div>
   );
 }

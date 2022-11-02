@@ -1,38 +1,73 @@
+body {
+  background-color: #e8e2ff;
+}
+
 .App {
-  text-align: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-header {
+  font-family: "Inter", sans-serif;
+  color: #2b1392;
+  font-weight: bold;
+  font-size: 20px;
 }
-
+/* 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+} */
+.main-paragraph {
+  color: #2b1392;
+  font-size: 65px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pink-text {
+  font-style: bold;
+  color: #d858d1;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.App-logo,
+.main-paragraph {
+  width: 50%;
+}
+
+.App-logo {
+  padding: 50px;
+  max-width: 500px;
+}
+
+/*
+CSS for US Map
+*/
+
+path {
+  fill: rgb(50, 77, 95);
+  stroke: #d4cfe6;
+  stroke-width: 2px;
+}
+
+path:hover {
+  fill: #d858d1;
 }
