@@ -71,3 +71,7 @@ path {
 path:hover {
   fill: #d858d1;
 }
+
+#usa-map {
+  width: 50%;
+}

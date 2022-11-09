@@ -1,3 +1,5 @@
+import * as React from "react";
+
 import mainImage from "./imgMain.png";
 import "./App.css";
 import USMap from "./USMap";
@@ -20,6 +22,10 @@ function App() {
         </section>
       </main>
       <USMap />
+
+      {/* Table representing cheapest and most expansive cities */}
+
+      {/* Prediction of prices in New jersey  */}
     </div>
   );
 }
