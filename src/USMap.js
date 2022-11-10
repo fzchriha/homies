@@ -42,8 +42,7 @@ function USMap() {
   // });
 
   return (
-    <section>
-      <p>Your state is {state}</p>
+    <section className="content">
       <svg
         _ngcontent-afp-c200=""
         id="usa-map"
