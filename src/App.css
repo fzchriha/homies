@@ -13,6 +13,7 @@ body {
   font-size: 20px;
   padding-left: 23px;
 }
+
 /* 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -37,6 +38,7 @@ body {
 .page {
   margin-bottom: 10%;
 }
+
 /* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -73,8 +75,10 @@ path {
   stroke-width: 2px;
 }
 
-path:hover {
+path:hover,
+path.selected {
   fill: #d858d1;
+  cursor: pointer;
 }
 
 #usa-map {
@@ -83,4 +87,8 @@ path:hover {
 
 .input {
   background-color: white;
+}
+
+.card {
+  background-color: #de90e3;
 }
